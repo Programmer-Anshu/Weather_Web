@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #43AEFC;
+}
+.card{
+    background-color: whitesmoke;
+    height: 22rem;
+    width: 15rem;
+    position: absolute;
+background-color: whitesmoke;
+    border-radius: 7px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.card h1{
+    font-weight: 900;
+    font-size: 1rem;
+   margin-top: 15px;
+   margin-left: 15px;
+  color: #43AEFC;
+}
+.card hr{
+    margin-top: 10px;
+}
+.main{
+    position: relative;
+    left: 5rem;
+    top: 15px;
+}
+
+.temp{
+margin-left: 8PX;
+top: 5px;
+font-size: 25px;
+}
+.clouds{
+    font-size: 18px;
+   position: relative;
+   right: 5px;
+   top: 10px;
+}
+
+
+.location{
+    font-size: 18px;
+    /* position: relative; */
+margin-top: 20px;
+margin-left: 10px;
+}
+.anshu{
+    position: relative;
+    top: 15px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+   
+   border-image-repeat: repeat;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .column img{
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .column p{
+margin-left: 27px;
+font-size: 11px;
+margin-top: 5px;
+
+  }
+  .kio{
+    position: relative;
+    left: 10px;
+  }
+
+  .wind{
+    position: relative;
+    left: 10px;
+  }
+  .humidity{
+    position: relative;
+    left: 13px;
+  }
+
+.btn{
+  width: 90px;
+  margin-top: 10px;
+  margin-left: 14px;
+  font-size: 12px;
+  height: 23px;
+  border: none;
+  border: 1px solid #43AEFC;
+  border-radius: 3px;
+  transition: 1s ease-in-out;
+  cursor: pointer;
+  background-color: aliceblue;
+}
+.btn:hover{
+  background-color: aqua;
+}
